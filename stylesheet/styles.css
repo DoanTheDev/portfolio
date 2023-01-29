@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+a, li {
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    list-style: none;
+    color: #FAF9F6;
+    padding: 18px 20px;
+
+    
+    
+    
+
+}
+    
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10%;
+    background-color: #343d46;
+    
+    
+}
+.nav_links{
+    display: flex;
+   
+    width: 100%;
+}
+
+
+.container img{
+    transition: transform .7s ease-in-out
+}
+.container img:hover {
+    transform: rotate(360deg);
+}
+
+body{
+    background-color: #65737e;
+}
+
+
+
